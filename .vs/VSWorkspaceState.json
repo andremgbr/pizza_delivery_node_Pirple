@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.data",
+    "\\.data\\itens",
+    "\\.data\\orders",
+    "\\.data\\tokens",
+    "\\.data\\users",
+    "\\lib"
+  ],
+  "SelectedNode": "\\lib\\cli.js",
+  "PreviewInSolutionExplorer": false
+}

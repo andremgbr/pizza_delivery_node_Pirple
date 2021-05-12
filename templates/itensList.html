@@ -1,0 +1,49 @@
+<h1>Meunu</h1>
+<h2>Check the box the itens that you wish!</h2>
+<hr />
+<form id="placeOrder" action="/api/menu" method="POST">
+    <input type="hidden" name="_method" value="POST" />
+    <div class="formError"></div>
+    <div class="formSuccess">Your Changes Have Been Saved</div>
+
+    <table id="checksListTable">
+        <tr>
+            <th>Order</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Ingredientes</th>
+        </tr>
+
+    </table>
+
+    <hr />
+    <hr />
+    <h1>Payment</h1>
+    <h2>Please, Inisert your credit Card info</h2>
+    <hr />
+
+    <div class="inputWrapper">
+        <div class="inputLabel">Number</div>
+        <input type="text" name="cardNumber" placeholder="4242424242424242" />
+    </div>
+
+    <div class="inputWrapper">
+        <div class="inputLabel">Month Expiration</div>
+        <input type="text" name="cardExp_month" placeholder="12" />
+    </div>
+
+    <div class="inputWrapper">
+        <div class="inputLabel">Year Expiration</div>
+        <input type="text" name="cardExp_year" placeholder="2022" />
+    </div>
+
+    <div class="inputWrapper">
+        <div class="inputLabel">CVC code</div>
+        <input type="text" name="cardCvc" placeholder="314" />
+    </div>
+
+
+    <div class="inputWrapper ctaWrapper">
+        <button type="submit" class="cta green">Place Order</button>
+    </div>
+</form>
